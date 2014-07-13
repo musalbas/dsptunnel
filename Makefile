@@ -1,6 +1,6 @@
 BINARY = dsptunnel
 CFLAGS = -Wall -O3
-LDFLAGS = -lpthread
+LDFLAGS = -pthread
 
 .PHONY: all
 all: $(BINARY)
